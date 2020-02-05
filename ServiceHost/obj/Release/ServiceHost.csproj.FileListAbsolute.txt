@@ -1,0 +1,12 @@
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\bin\Release\ServiceHost.exe.config
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\bin\Release\ServiceHost.exe
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\bin\Release\ServiceHost.pdb
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\bin\Release\ServiceLibrary.dll
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\bin\Release\SharedLibrary.dll
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\bin\Release\ServiceLibrary.pdb
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\bin\Release\SharedLibrary.pdb
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\obj\Release\ServiceHost.csprojAssemblyReference.cache
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\obj\Release\ServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\obj\Release\ServiceHost.csproj.CopyComplete
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\obj\Release\ServiceHost.exe
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ServiceHost\obj\Release\ServiceHost.pdb

@@ -1,0 +1,13 @@
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\bin\Debug\ClientTester.exe.config
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\bin\Debug\ClientTester.exe
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\bin\Debug\ClientTester.pdb
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\bin\Debug\SharedLibrary.dll
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\bin\Debug\SharedLibrary.pdb
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\obj\Debug\ClientTester.csprojAssemblyReference.cache
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\obj\Debug\ClientTester.Main.resources
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\obj\Debug\ClientTester.Properties.Resources.resources
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\obj\Debug\ClientTester.csproj.GenerateResource.cache
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\obj\Debug\ClientTester.csproj.CoreCompileInputs.cache
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\obj\Debug\ClientTester.csproj.CopyComplete
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\obj\Debug\ClientTester.exe
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\ClientTester\obj\Debug\ClientTester.pdb

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <system.serviceModel>
+    <bindings>
+      <wsDualHttpBinding>
+        <binding name="myHttp" maxBufferPoolSize="60000000" maxReceivedMessageSize="60000000">
+          <security mode="Message">
+            <message clientCredentialType="UserName" negotiateServiceCredential="true"/>
+          </security>
+          <!--<readerQuotas maxDepth="2147483647" maxStringContentLength="2147483647"
+                        maxArrayLength="2147483647" maxBytesPerRead="2147483647"
+                        maxNameTableCharCount="2147483647"/>-->
+        </binding>
+      </wsDualHttpBinding>
+    </bindings>
+    
+    <behaviors>
+      <endpointBehaviors>
+        <behavior name="ClientBehavior">
+          <callbackDebug includeExceptionDetailInFaults="true"/>
+          <!--<clientVia />-->
+        </behavior>
+      </endpointBehaviors>
+    </behaviors>
+
+    <client>
+      <endpoint address="http://localhost:31001/Hello" binding="wsDualHttpBinding"
+                bindingConfiguration="myHttp" contract="SharedLibrary.IHelloAuthenticateService" name="myHttp" behaviorConfiguration="ClientBehavior">
+        <identity>
+          <certificate encodedValue="AwAAAAEAAAAUAAAAA0HGjA0AYMplbuLW20qt/JXYXgIgAAAAAQAAAAwDAAAwggMIMIIB9KADAgECAhCUEz//07p8n08smuhS0+s9MAkGBSsOAwIdBQAwGzEZMBcGA1UEAxMQVUNTRCBEZW1vIFNlcnZlcjAeFw0wNzAxMDEwNzAwMDBaFw0yNTAxMDEwNzAwMDBaMBsxGTAXBgNVBAMTEFVDU0QgRGVtbyBTZXJ2ZXIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDVRZOQ+NeDi2FtfcjYytrn8G8arz2Lb4+IQV6Zza11oSM8rnODhKnA/uBK/ACtKogaqRazDuhSDVWyWwUM0CvkQi+WIXgXdfLP45b2ilYZ+MjkR+MmOqDs7OpOMuLQ2t4NtRa+yzkcqXaVVxp6vEWbZHDgXtW/hg73q4UaU+MKaqIgDCmw2VTaSI8nh8hUv/5VvmthBQmH3DSA4lcruLLjvvQRZpbo82hXP0cybSVhWfbxkpi52RmRD+hHJk4TnudR6mtBNfTVT5goC5JhRyEvyKcAOLS2W9farMXgGStrkXjiNZA4T4jvqMZLeFzqsqXFyL0u//pP0ia5ZtLN8EKvAgMBAAGjUDBOMEwGA1UdAQRFMEOAEGm0az1n3VHQydBap6+BrXqhHTAbMRkwFwYDVQQDExBVQ1NEIERlbW8gU2VydmVyghCUEz//07p8n08smuhS0+s9MAkGBSsOAwIdBQADggEBALUNopREsLSiRqN9w6VJevgeiQ2DYfFY2Bhb/JKPCeq46NYB48skMOXyrZQCZz01veI8PDeLLLfny9TOXuFXWYGs85hTd+/x5GmhK289NB13ll3gcpmh7cNZ5wj6e0XZB48O4BBzBLX9qx/h5itX60rLnLk/QLl5TjuJXcfmU9p0OgGnIcdeAe9IqyoeGbd+vYAzSc3D4EJ2Sc5xDGL0KS/XVMRbBJHfoTRwclCRprT/UAa7+iftOic3UKV4KuDX7S8CXVXmv558gz2VnpTE7AXpxOdP2dwhNagGnH4qYQHvcJCOAYtUr6VRKyqRzLCU9G1arjjJOW9+w/LxLCdIyFU=" />
+        </identity>
+      </endpoint>
+    </client>
+  </system.serviceModel>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5"/>
+  </startup>
+</configuration>

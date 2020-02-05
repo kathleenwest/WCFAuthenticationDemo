@@ -1,0 +1,6 @@
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\SharedLibrary\bin\Release\SharedLibrary.dll
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\SharedLibrary\bin\Release\SharedLibrary.pdb
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\SharedLibrary\obj\Release\SharedLibrary.csproj.CoreCompileInputs.cache
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\SharedLibrary\obj\Release\SharedLibrary.dll
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\SharedLibrary\obj\Release\SharedLibrary.pdb
+C:\Users\kathl\Dropbox\Projects\WCFAuthenticationDemo\SharedLibrary\obj\Release\SharedLibrary.csprojAssemblyReference.cache
